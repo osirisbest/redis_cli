@@ -51,4 +51,4 @@ var  getr=function () {
         }
     });
 }
-setInterval(getr,1000);
+setInterval(getr,500);
