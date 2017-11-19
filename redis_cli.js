@@ -36,11 +36,10 @@ var  getr=function () {
         if (parse.iam==iam){console.log('I am generator!')}
         else
         {console.log('I am NOT generator');
-        eventHandler(parse.message,function(err,msg){//err ?
+        eventHandler(parse.message,function(err,msg){
             console.log('err:'+err+';msg:'+msg);
             if (err){client.set('err',err);};
         });}
-        //console.log(callb.msg)}
 
         console.log(i+';MY REAL NAME:'+iam+';'+';d time='+deltaT);
         console.log(parse);
