@@ -46,7 +46,7 @@ var  getr=function () {
         if (parse.iam==iam) {
             setMessage();
         }else if((new Date-parse.t)>2000){
-            console.log('Generator id die!I am generator!');
+            console.log('Generator is die!I am generator!');
             setMessage();
         }
     });
